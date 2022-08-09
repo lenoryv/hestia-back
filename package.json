@@ -1,0 +1,34 @@
+{
+    "name": "hestia-back",
+    "version": "1.0.0",
+    "description": "Programming a server with NodeJS and Express",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "lint": "npm run lint",
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lenoryv/hestia-back.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lenoryv/hestia-back/issues"
+    },
+    "homepage": "https://github.com/lenoryv/hestia-back#readme",
+    "dependencies": {
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.21.0",
+        "nodemon": "^2.0.19",
+        "standard": "^17.0.0"
+    },
+    "eslintConfig": {
+        "extends": "./node_modules/standard/eslintrc.json"
+    }
+}
